@@ -61,7 +61,7 @@ sudo apt install git -y
 Clone the repository:
 
 ```bash
-git clone https://github.com/nselem/CORASON.git
+git clone https://github.com/miguel-mx/corason-conda.git
 cd CORASON
 ```
 
