@@ -81,6 +81,10 @@ Activate the environment:
 conda activate corason
 ```
 
+Install aditional dependencies
+```bash
+cpanm SVG
+```
 ---
 
 ## Step 5: Uncompress the Example Dataset
