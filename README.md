@@ -72,7 +72,7 @@ cd CORASON
 Create the environment using the provided `.yml` file:
 
 ```bash
-conda env create -f environment.yml
+conda env create -f corason.yml
 ```
 
 Activate the environment:
