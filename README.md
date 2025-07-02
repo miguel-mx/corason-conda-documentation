@@ -62,7 +62,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/miguel-mx/corason-conda.git
-cd CORASON
+cd corason-conda
 ```
 
 ---
