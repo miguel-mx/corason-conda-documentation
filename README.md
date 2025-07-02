@@ -89,7 +89,7 @@ cpanm SVG
 
 ## Step 5: Uncompress the Example Dataset
 
-Inside the CORASON folder:
+Inside the corason-conda folder:
 
 ```bash
 tar xvfz EXAMPLE.tar.gz
