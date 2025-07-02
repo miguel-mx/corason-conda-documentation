@@ -132,7 +132,6 @@ Once in the example directory, execute CORASON with a typical command like:
 To ensure all relative paths resolve correctly, run the command from within the `EXAMPLE` directory (or wherever your data and `.Ids` file are located):
 
 ```bash
-cd example_data  # or EXAMPLE
 ../CORASON/corason.pl -q ctg2_515.query -rast_ids Example.Ids -s 501926
 ```
 
