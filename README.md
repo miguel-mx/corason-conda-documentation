@@ -87,8 +87,8 @@ conda activate corason
 Inside the CORASON folder:
 
 ```bash
-unzip EXAMPLE.zip -d example_data
-cd example_data
+tar xvfz EXAMPLE.tar.gz
+cd EXAMPLE
 ```
 
 ---
@@ -98,10 +98,17 @@ cd example_data
 Once in the example directory, execute CORASON with a typical command like:
 
 ```bash
-corason.pl -r reference.gbk -q tauD -d genome_database_folder
+ ../CORASON/corason.pl -q ctg2_515.query -rast_ids Example.Ids -s 501926
+
 ```
 
-Make sure the `.gbk` files and query are correctly specified as in the example.
+#### TODO
+corason.pl (main program) is located in ../CORASON
+-q ctg2_515.query (query is a FASTA file from the selected Contig from 501926 GBK) ¿How do I select a contig?  
+-rast_ids Example.Ids (Is an index of the GBKs created with ....)
+-s 501926 : The GBK of the query contig
+
+Make sure you run the line on the EXAMPLE folder
 
 ---
 
@@ -115,11 +122,14 @@ CORASON will generate several outputs including:
 
 From Windows, navigate to the path of your WSL home directory (e.g., `\\wsl$\Ubuntu\home\your-user\...`) and open `Joined.svg` with your preferred browser.
 
-Alternatively, copy to Windows:
+Also, you can open the File Explorer and look for your WSL, and go to  `/home/<user>/corason-conda/EXAMPLE/output/ctg2_515.query-output/` and open `Joined.svg`. 
 
-```bash
-cp Joined.svg /mnt/c/Users/YourName/Desktop/
-```
+## Example Output
+
+Below is an example of a CORASON output:
+
+![CORASON output preview](Joined.svg)
+
 
 ---
 
@@ -133,5 +143,5 @@ cp Joined.svg /mnt/c/Users/YourName/Desktop/
 
 ## References
 
-- CORASON: https://github.com/nselem/CORASON
+- CORASON: https://github.com/miguel-mx/corason-conda
 - BiG-SCAPE/CORASON publication: https://doi.org/10.1038/s41589-019-0400-9
