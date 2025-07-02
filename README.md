@@ -107,14 +107,34 @@ Once in the example directory, execute CORASON with a typical command like:
 
 ```
 
-#### TODO
-corason.pl (main program) is located in ../CORASON
--q ctg2_515.query (query is a FASTA file from the selected Contig from 501926 GBK)
-¿How do I select a contig?  
--rast_ids Example.Ids (Is an index of the GBKs created with ....)
--s 501926 : The GBK of the query contig
+### What Each Argument Means:
 
-Make sure you run the command inside the EXAMPLE folder
+- `../CORASON/corason.pl`  
+  This is the main CORASON Perl script. Make sure you're running it from within the `EXAMPLE` folder so the relative path to the script is correct.
+
+- `-q ctg2_515.query`  
+  This is your **query file**, in FASTA format. It represents a gene (or genes) from a specific **contig** that you are interested in.  
+  🧬 To select a contig, you should:
+  1. Open the `.gbk` file for genome `501926` using a genome viewer or text editor.
+  2. Identify the contig that contains your gene of interest.
+  3. Extract the sequence of that contig and save it in FASTA format as `ctgX.query`.
+
+- `-rast_ids Example.Ids`  
+  This is a list of genome IDs (e.g., GenBank files) that you want CORASON to search through. It acts as an index of available `.gbk` files and must match the filenames or internal IDs of the genome database.
+
+- `-s 501926`  
+  This specifies the **source genome** for the query. It tells CORASON which `.gbk` file contains the contig specified in the `-q` parameter.
+
+---
+
+### ✅ Important: Run the Command from Inside the `EXAMPLE` Folder
+
+To ensure all relative paths resolve correctly, run the command from within the `EXAMPLE` directory (or wherever your data and `.Ids` file are located):
+
+```bash
+cd example_data  # or EXAMPLE
+../CORASON/corason.pl -q ctg2_515.query -rast_ids Example.Ids -s 501926
+```
 
 ---
 
