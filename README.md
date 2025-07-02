@@ -109,11 +109,12 @@ Once in the example directory, execute CORASON with a typical command like:
 
 #### TODO
 corason.pl (main program) is located in ../CORASON
--q ctg2_515.query (query is a FASTA file from the selected Contig from 501926 GBK) ¿How do I select a contig?  
+-q ctg2_515.query (query is a FASTA file from the selected Contig from 501926 GBK)
+¿How do I select a contig?  
 -rast_ids Example.Ids (Is an index of the GBKs created with ....)
 -s 501926 : The GBK of the query contig
 
-Make sure you run the line on the EXAMPLE folder
+Make sure you run the command inside the EXAMPLE folder
 
 ---
 
