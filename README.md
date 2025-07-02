@@ -128,7 +128,7 @@ Also, you can open the File Explorer and look for your WSL, and go to  `/home/<u
 
 Below is an example of a CORASON output:
 
-![CORASON output preview](Joined.svg)
+![CORASON output preview](Joined.png)
 
 
 ---
