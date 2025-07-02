@@ -126,9 +126,13 @@ CORASON will generate several outputs including:
 
 ### To open `Joined.svg`:
 
-From Windows, navigate to the path of your WSL home directory (e.g., `\\wsl$\Ubuntu\home\your-user\...`) and open `Joined.svg` with your preferred browser.
+From Windows, navigate to the path of your WSL home directory.
+(e.g., `\\wsl$\Ubuntu\home\your-user\corason-conda\EXAMPLE\output\ctg2_515.query-output\`) 
+and open `Joined.svg` with your preferred browser.
 
-Also, you can open the File Explorer and look for your WSL, and go to  `/home/<user>/corason-conda/EXAMPLE/output/ctg2_515.query-output/` and open `Joined.svg`. 
+Also, you can open the Windows **File Explorer** and look for your WSL, and go to 
+`/home/<user>/corason-conda/EXAMPLE/output/ctg2_515.query-output/` 
+There you can open `Joined.svg`. 
 
 ## Example Output
 
