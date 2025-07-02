@@ -172,5 +172,6 @@ Below is an example of a CORASON output:
 
 ## References
 
-- CORASON: https://github.com/miguel-mx/corason-conda
+- CORASON: https://github.com/nselem/corason
 - BiG-SCAPE/CORASON publication: https://doi.org/10.1038/s41589-019-0400-9
+- CORASON-Conda: https://github.com/miguel-mx/corason-conda
