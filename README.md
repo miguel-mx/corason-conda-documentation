@@ -83,7 +83,7 @@ conda activate corason
 
 Install aditional dependencies
 ```bash
-cpanm SVG-2.87
+cpan MANWAR/SVG-2.87.tar.gz
 ```
 ---
 
