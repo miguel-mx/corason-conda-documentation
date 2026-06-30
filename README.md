@@ -83,7 +83,7 @@ conda activate corason
 
 Install aditional dependencies
 ```bash
-cpanm SVG
+cpanm SVG-2.87
 ```
 ---
 
